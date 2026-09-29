@@ -2,6 +2,8 @@
 
 Static companion website for *Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes*.
 
+Website: <https://zeweid1221.github.io/Anchor-ECC-Website/>
+
 ## Scope
 
 This repository contains only the website source, static figures, and paper-reported display data. It does not contain the Anchor-ECC implementation, experiment runners, model artifacts, or private result archives. The interactive walkthrough replays static examples and does not execute watermark generation or detection.
