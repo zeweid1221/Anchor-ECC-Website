@@ -103,8 +103,8 @@ function Hero() {
   return (
     <section id="top" className="hero">
       <div className="heroText">
-        <p className="eyebrow">Anchor-ECC · Error-correcting code watermark</p>
-        <h1>Local integrity checking for watermarked LLM outputs</h1>
+        <p className="eyebrow">Error-correcting code watermark</p>
+        <h1>Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes</h1>
         <p className="lead">
           Anchor-ECC embeds joint VT–Hamming structure into short token blocks. From final text and
           the watermark key, it verifies watermark presence, flags structurally inconsistent
