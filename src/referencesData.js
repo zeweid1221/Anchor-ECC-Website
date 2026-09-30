@@ -1,4 +1,4 @@
-// Generated from the cited references in arr_draft/main.tex.
+// Synchronized with the references cited in arxiv_preprint/main.tex.
 export const paperReferences = [
   {
     "key": "aaronson2023watermarking",
@@ -18,7 +18,7 @@ export const paperReferences = [
     "key": "chao2024watermarking",
     "authors": "Chao et al.",
     "title": "Watermarking language models with error correcting codes",
-    "venue": "",
+    "venue": "arXiv preprint arXiv:2406.10281",
     "year": "2024"
   },
   {
@@ -39,7 +39,7 @@ export const paperReferences = [
     "key": "li2024segmenting",
     "authors": "Li et al.",
     "title": "Segmenting Watermarked Texts From Language Models",
-    "venue": "",
+    "venue": "arXiv preprint arXiv:2410.20670",
     "year": "2024"
   },
   {
@@ -81,7 +81,7 @@ export const paperReferences = [
     "key": "kirchenbauer2023watermark",
     "authors": "Kirchenbauer et al.",
     "title": "A watermark for large language models",
-    "venue": "Proceedings of the International Conference on Machine Learning",
+    "venue": "Proceedings of the 40th International Conference on Machine Learning",
     "year": "2023"
   },
   {
@@ -102,15 +102,22 @@ export const paperReferences = [
     "key": "christ2024pseudorandom",
     "authors": "Christ and Gunn",
     "title": "Pseudorandom error-correcting codes",
-    "venue": "Annual International Cryptology Conference",
+    "venue": "Advances in Cryptology -- CRYPTO 2024",
     "year": "2024"
   },
   {
     "key": "LLM-edit-detect2025",
     "authors": "Xie et al.",
     "title": "Detecting Post-generation Edits to Watermarked LLM Outputs via Combinatorial Watermarking",
-    "venue": "",
+    "venue": "arXiv preprint arXiv:2510.01637",
     "year": "2025"
+  },
+  {
+    "key": "deng2026detecting",
+    "authors": "Deng et al.",
+    "title": "Detecting Post-generation Edits to Watermarked LLM Outputs via Error-Correcting Codes",
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2026",
+    "year": "2026"
   },
   {
     "key": "bao2023fast",
@@ -123,7 +130,7 @@ export const paperReferences = [
     "key": "chakraborty2023possibilities",
     "authors": "Chakraborty et al.",
     "title": "On the possibilities of AI-generated text detection",
-    "venue": "",
+    "venue": "arXiv preprint arXiv:2304.04736",
     "year": "2023"
   },
   {
@@ -151,7 +158,7 @@ export const paperReferences = [
     "key": "sadasivan2023can",
     "authors": "Sadasivan et al.",
     "title": "Can AI-generated text be reliably detected?",
-    "venue": "",
+    "venue": "arXiv preprint arXiv:2303.11156",
     "year": "2023"
   },
   {
@@ -176,13 +183,6 @@ export const paperReferences = [
     "year": "2022"
   },
   {
-    "key": "radford2019language",
-    "authors": "Radford et al.",
-    "title": "Language models are unsupervised multitask learners",
-    "venue": "OpenAI blog",
-    "year": "2019"
-  },
-  {
     "key": "guo-etal-2024-context-aware",
     "authors": "Guo et al.",
     "title": "Context-aware Watermark with Semantic Balanced Green-red Lists for Large Language Models",
@@ -190,10 +190,10 @@ export const paperReferences = [
     "year": "2024"
   },
   {
-    "key": "merity2016pointer",
-    "authors": "Merity et al.",
-    "title": "Pointer Sentinel Mixture Models",
-    "venue": "Proceeding of the International Conference on Learning Representations",
-    "year": "2017"
+    "key": "blagojevic2021lfqa",
+    "authors": "Blagojevic",
+    "title": "LFQA",
+    "venue": "Hugging Face dataset",
+    "year": "2021"
   }
 ];
