@@ -12,7 +12,7 @@ import {
 } from "./resultsData.js";
 
 const PAPER_URL = "#citation";
-const GITHUB_URL = "https://github.com/zeweid1221/Anchor-ECC-Website";
+const GITHUB_URL = "https://github.com/zeweid1221/ECC_Watermark";
 const BIBTEX = `@misc{anchor_ecc,
   title  = {Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes},
   author = {Deng, Zewei and Siddeek, Muhammad and Xie, Liyan and Seif, Mohamed and Wang, Mengdi and Poor, H. Vincent and Goldsmith, Andrea},
