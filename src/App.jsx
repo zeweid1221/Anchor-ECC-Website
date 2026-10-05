@@ -11,12 +11,16 @@ import {
   resultCards,
 } from "./resultsData.js";
 
-const PAPER_URL = "#citation";
+const PAPER_URL = "https://arxiv.org/abs/2609.38722";
 const GITHUB_URL = "https://github.com/zeweid1221/ECC_Watermark";
-const BIBTEX = `@misc{anchor_ecc,
-  title  = {Anchor-ECC: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes},
-  author = {Deng, Zewei and Siddeek, Muhammad and Xie, Liyan and Seif, Mohamed and Wang, Mengdi and Poor, H. Vincent and Goldsmith, Andrea},
-  year   = {2026}
+const BIBTEX = `@misc{deng2026anchorecc,
+  title         = {{Anchor-ECC}: Local Integrity Checking for Watermarked LLM Outputs via Error-Correcting Codes},
+  author        = {Deng, Zewei and Siddeek, Muhammad and Xie, Liyan and Seif, Mohamed and Wang, Mengdi and Poor, H. Vincent and Goldsmith, Andrea},
+  year          = {2026},
+  eprint        = {2609.38722},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CR},
+  url           = {https://arxiv.org/abs/2609.38722}
 }`;
 
 const authors = [
@@ -91,7 +95,7 @@ function Nav() {
         <a href="#method">Method</a>
         <a href="#results">Results</a>
         <a href="#demo">Walkthrough</a>
-        <a href={PAPER_URL} title="Replace PAPER_URL with the arXiv URL for the public release">Paper</a>
+        <a href={PAPER_URL} target="_blank" rel="noreferrer">Paper</a>
         <a href={GITHUB_URL} target="_blank" rel="noreferrer">GitHub</a>
         <a href="#citation">Citation</a>
       </div>
